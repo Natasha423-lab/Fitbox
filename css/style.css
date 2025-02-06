@@ -1,45 +1,22 @@
-*{
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    margin:0%;
-    padding:0%
 }
-.title{
-    height: 100vh;
-    width: 100% ;
-background-position:center;
-background-repeat: no-repeat;
-background-size: cover;}
-nav{
-    display:flex;
-    align-items:center;
-    justify-content: space-between;
-    background-color: black;
-    color: white;
-    height:50px
-}
-span{
-    color:red
-}
-nav ul li {
-    list-style-type: none;
-    display:inline-block;
-    padding: 10px 25px;
-color: white
-}
-nav ul li a:hover{
-    color:white
-}
-button{
+
+/* Navigation bar */
+nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    background-color: red;
-    color: white;
-    border-radius: 30px;
-    padding:10px 25px;
-    transition: transform .4s;
+    background-color: black;
+    padding: 15px 30px;
 }
-button:hoover{
-    background-color: aquamarine;
-transition: all 0.3s ease
+
+/* FitBox logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
 }
