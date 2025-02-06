@@ -1,80 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>FitBox Form</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <div class="logo">FitBox</div>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <div class="logo">FitBox</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </header>
-     <div class="form-container">
-        <h2>FitBox Registration Form</h2>
-        <p>For those interested in joining Fitbox and improving your overall well-being,kindly fill in the user form down below:</p>
-        <form id="fitnessForm">
-            <div class="form-group">
-                <label for="firstName">First Name:</label>
-                <input type="text" id="firstName">
-                <small class="error"></small>
-            </div>
+    <div class="form-container">
+      <h2>FitBox Registration Form</h2>
+      <p>
+        For those interested in joining Fitbox and improving your overall
+        well-being,kindly fill in the user form down below:
+      </p>
+      <form id="fitnessForm">
+        <div class="form-group">
+          <label for="firstName">First Name:</label>
+          <input type="text" id="firstName" />
+          <small class="error"></small>
+        </div>
 
-            <div class="form-group">
-                <label for="surname">Surname:</label>
-                <input type="text" id="surname">
-                <small class="error"></small>
-            </div>
+        <div class="form-group">
+          <label for="surname">Surname:</label>
+          <input type="text" id="surname" />
+          <small class="error"></small>
+        </div>
 
-            <div class="form-group">
-                <label for="lastName">Last Name:</label>
-                <input type="text" id="lastName">
-                <small class="error"></small>
-            </div>
- <div class="form-group">
-                <label for="gender">Gender:</label>
-                <select id="gender">
-                    <option value="">Select Gender</option>
-                    <option value="Male">Male</option>
-                    <option value="Female">Female</option>
-                    <option value="Other">Other</option>
-                </select>
-                <small class="error"></small>
-            </div>
+        <div class="form-group">
+          <label for="lastName">Last Name:</label>
+          <input type="text" id="lastName" />
+          <small class="error"></small>
+        </div>
+        <div class="form-group">
+          <label for="gender">Gender:</label>
+          <select id="gender">
+            <option value="">Select Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+          </select>
+          <small class="error"></small>
+        </div>
 
-            <div class="form-group">
-                <label for="phone">Phone Number:</label>
-                <input type="tel" id="phone">
-                <small class="error"></small>
-            </div>
+        <div class="form-group">
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" />
+          <small class="error"></small>
+        </div>
 
-            <div class="form-group">
-                <label for="email">E-mail Address:</label>
-                <input type="email" id="email">
-                <small class="error"></small>
-            </div>
- <div class="form-group">
-                <label for="goal">Goals:</label>
-                <select id="goal">
-                    <option value="">Select Your Goal</option>
-                    <option value="Lose weight">To lose weight</option>
-                    <option value="Physically fit">To become physically fit</option>
-                    <option value="Other">Other</option>
-                </select>
-                <small class="error"></small>
-            </div>
+        <div class="form-group">
+          <label for="email">E-mail Address:</label>
+          <input type="email" id="email" />
+          <small class="error"></small>
+        </div>
+        <div class="form-group">
+          <label for="goal">Goals:</label>
+          <select id="goal">
+            <option value="">Select Your Goal</option>
+            <option value="Lose weight">To lose weight</option>
+            <option value="Physically fit">To become physically fit</option>
+            <option value="Other">Other</option>
+          </select>
+          <small class="error"></small>
+        </div>
 
-            <button type="submit">Submit</button>
-        </form>
+        <button type="submit">Submit</button>
+      </form>
     </div>
 
-    <script src="index.js"></script>
-</body>
+    <script src="./js/index.js"></script>
+  </body>
 </html>
