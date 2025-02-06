@@ -30,12 +30,16 @@ nav ul li a:hover{
     color:white
 }
 button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: red;
-    color:white;
+    color: white;
     border-radius: 30px;
     padding:10px 25px;
     transition: transform .4s;
 }
-button:hover{
-    transform: scale(1.3s);
+button:hoover{
+    background-color: aquamarine;
+transition: all 0.3s ease
 }
