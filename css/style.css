@@ -20,3 +20,46 @@ nav {
     font-weight: bold;
     color: red;
 }
+/* Navigation links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 50px; /* Even spacing */
+    margin: 0 auto; /* Center the items */
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: red;
+}
+/* Full-screen background image */
+.hero {
+    height: 100vh;
+    background: url("images/dumbbell-barbell-workout-gym-space-products-decorations-text-blurred-background-red-towel-apple-black-161387774.webp") no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Text content styling */
+.content {
+    background: rgba(0, 0, 0, 0.6); /* Dark overlay for readability */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.content h1 {
+    font-size: 36px;
+    color: white;
+}
