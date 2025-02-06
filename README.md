@@ -24,5 +24,5 @@ For any inquiries about this website feel free to send an email to me at natasha
 
 # License and Copyright Information
 
-This project is licensed under the MIT License.
+This project is licensed undgiter the MIT License.
 2025 FitBox. All Rights Reserved
